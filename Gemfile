@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
 gem 'devise'
-gem 'rails_db'
 
 gem 'carrierwave'
 gem "fog-aws"
@@ -44,6 +43,8 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
   gem 'sqlite3'
+  gem 'rails_db'
+  gem 'hirb'
 end
 
 group :development do

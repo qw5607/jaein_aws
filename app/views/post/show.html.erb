@@ -25,8 +25,8 @@
     
     <% unless @post.image.nil? %>
         <%= image_tag @post.image %>
-        <%= image_tag @post.thumb %>
-        <%= image_tag @post.middle %>
+        <%#= image_tag @post.thumb %>
+        <%#= image_tag @post.middle %>
     <% end %>
     
     <p><%= simple_format(@post.content) %></p><hr>
