@@ -29,6 +29,8 @@ Rails.application.routes.draw do
   
   get 'post/search'
   get 'likes/likes_toggle/:id' => 'likes#likes_toggle'
+  
+  get 'post/ajaxCall' => 'post#ajaxCall'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
